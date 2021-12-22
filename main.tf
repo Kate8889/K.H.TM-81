@@ -1,5 +1,5 @@
 provider "google" { 
-  project = "deft-return-335213" 
+  project = "deft-return-335917" 
   zone    = "europe-west1-b" 
 } 
 
@@ -7,7 +7,7 @@ resource "google_compute_network" "nat-example" {
   name = "nat-example" 
   mtu  = 1460 
   auto_create_subnetworks = false 
-  project = "deft-return-335213" 
+  project = "deft-return-335917" 
   routing_mode = "REGIONAL" 
 } 
 
